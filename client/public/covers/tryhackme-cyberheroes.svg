@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Browser window with a forged auth cookie">
+  <rect width="1200" height="675" fill="#08080a"/>
+  <g stroke="#1b1b20" stroke-width="1">
+    <path d="M0 112h1200M0 225h1200M0 338h1200M0 451h1200M0 564h1200"/>
+    <path d="M100 0v675M300 0v675M500 0v675M700 0v675M900 0v675M1100 0v675"/>
+  </g>
+
+  <text x="56" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="3.4" fill="#5a5a63">GLORISON CYBER JOURNAL</text>
+  <text x="1144" y="62" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2.4" fill="#8a4a4c">TRYHACKME</text>
+
+  <g>
+    <rect x="286" y="146" width="628" height="384" fill="#0b0b0e" stroke="#2b2b32"/>
+    <rect x="286" y="146" width="628" height="38" fill="#101014" stroke="#2b2b32"/>
+    <circle cx="310" cy="165" r="3.5" fill="#3a3a42"/>
+    <circle cx="324" cy="165" r="3.5" fill="#3a3a42"/>
+    <circle cx="338" cy="165" r="3.5" fill="#3a3a42"/>
+    <rect x="360" y="156" width="330" height="18" fill="none" stroke="#232329"/>
+    <text x="372" y="169" font-family="ui-monospace, monospace" font-size="10.5" fill="#6a6a73">http://cyberheroes.thm/dashboard.php</text>
+  </g>
+
+  <g font-family="ui-monospace, monospace">
+    <text x="316" y="232" font-size="12" letter-spacing="2" fill="#6a6a73">LOGIN.GATE</text>
+    <rect x="316" y="246" width="330" height="40" fill="none" stroke="#232329"/>
+    <text x="330" y="271" font-size="13" fill="#4f4f58">username</text>
+    <rect x="316" y="298" width="330" height="40" fill="none" stroke="#232329"/>
+    <text x="330" y="323" font-size="13" fill="#4f4f58">password</text>
+    <rect x="316" y="352" width="128" height="34" fill="#17171b" stroke="#3a3a42"/>
+    <text x="340" y="374" font-size="11.5" letter-spacing="2" fill="#8b8b93">SIGN IN</text>
+  </g>
+
+  <g font-family="ui-monospace, monospace">
+    <text x="686" y="232" font-size="11" letter-spacing="1.8" fill="#6a6a73">COOKIE</text>
+    <rect x="686" y="246" width="196" height="52" fill="#120d0e" stroke="#ef4444" stroke-opacity="0.6"/>
+    <text x="700" y="268" font-size="12" fill="#ff6568">auth=1;</text>
+    <text x="700" y="286" font-size="11" fill="#8a6a6b">path=/</text>
+    <path d="M686 322h196" stroke="#232329"/>
+    <text x="686" y="346" font-size="11" fill="#8b8b93" letter-spacing="1.4">ROLE: CLIENT</text>
+    <text x="686" y="366" font-size="11" fill="#5f5f68" letter-spacing="1.4">SERVER CHECK: NONE</text>
+  </g>
+
+  <g transform="translate(866 388)" stroke="#ef4444" fill="none" stroke-width="1.6">
+    <rect x="0" y="18" width="42" height="34"/>
+    <path d="M8 18v-9a13 13 0 0 1 26 0v9"/>
+    <path d="M2 6 46 62" stroke-opacity="0.9"/>
+  </g>
+
+  <g stroke="#2b2b32">
+    <path d="M216 146v384M1000 146v384"/>
+    <path d="M170 146h46M1000 146h46M170 530h46M1000 530h46"/>
+  </g>
+
+  <text x="56" y="614" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2.2" fill="#4a4a52">FIG. 01 — CLIENT-SIDE AUTH, COMMAND INJECTION</text>
+  <text x="1144" y="614" text-anchor="end" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2.2" fill="#4a4a52">DIFFICULTY / EASY</text>
+</svg>

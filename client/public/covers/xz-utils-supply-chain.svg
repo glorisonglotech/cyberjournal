@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Supply chain diagram from source tarball to sshd">
+  <rect width="1200" height="675" fill="#08080a"/>
+  <g stroke="#1b1b20"><path d="M0 92h1200M0 588h1200"/></g>
+
+  <text x="56" y="56" font-family="ui-monospace, monospace" font-size="13" letter-spacing="3.4" fill="#5a5a63">GLORISON CYBER JOURNAL</text>
+  <text x="1144" y="56" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" letter-spacing="2.4" fill="#8a4a4c">SUPPLY CHAIN</text>
+
+  <g font-family="ui-monospace, monospace">
+    <text x="56" y="134" font-size="11" letter-spacing="2.4" fill="#6a6a73">CVE-2024-3094</text>
+    <text x="56" y="196" font-size="42" fill="#eae6e0" letter-spacing="-1">5.6.1</text>
+    <text x="56" y="222" font-size="10.5" fill="#5f5f68">xz-utils · liblzma</text>
+    <text x="56" y="244" font-size="10.5" fill="#5f5f68">build-time compromise</text>
+  </g>
+
+  <g stroke="#2b2b32" fill="#0b0b0e">
+    <rect x="72" y="308" width="184" height="76"/>
+    <rect x="312" y="308" width="184" height="76"/>
+    <rect x="552" y="308" width="184" height="76"/>
+    <rect x="792" y="308" width="184" height="76"/>
+  </g>
+
+  <g font-family="ui-monospace, monospace" font-size="10.5">
+    <text x="88" y="336" letter-spacing="1.6" fill="#6a6a73">SOURCE</text>
+    <text x="88" y="358" fill="#8b8b93">git repository</text>
+    <text x="88" y="374" fill="#4e4e57">looks clean</text>
+
+    <text x="328" y="336" letter-spacing="1.6" fill="#ff6568">TARBALL</text>
+    <text x="328" y="358" fill="#8b8b93">build-to-host.m4</text>
+    <text x="328" y="374" fill="#8a4a4c">decompresses payload</text>
+
+    <text x="568" y="336" letter-spacing="1.6" fill="#6a6a73">CONFIGURE</text>
+    <text x="568" y="358" fill="#8b8b93">IFUNC hook</text>
+    <text x="568" y="374" fill="#4e4e57">links into liblzma</text>
+
+    <text x="808" y="336" letter-spacing="1.6" fill="#6a6a73">SSHD</text>
+    <text x="808" y="358" fill="#8b8b93">via libsystemd</text>
+    <text x="808" y="374" fill="#4e4e57">pre-auth path</text>
+  </g>
+
+  <g stroke="#3a3a42">
+    <path d="M256 346h50M496 346h50M736 346h50"/>
+  </g>
+  <g fill="#3a3a42">
+    <path d="M306 340l10 6-10 6z"/><path d="M546 340l10 6-10 6z"/><path d="M786 340l10 6-10 6z"/>
+  </g>
+
+  <g>
+    <path d="M644 384v56h330" stroke="#ef4444" stroke-opacity="0.6" fill="none" stroke-dasharray="4 5"/>
+    <path d="M974 432v-46" stroke="#ef4444" stroke-opacity="0.6" fill="none" stroke-dasharray="4 5"/>
+    <text x="664" y="424" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.4" fill="#ff6568">DORMANT UNLESS PROCESS = sshd</text>
+  </g>
+
+  <g font-family="ui-monospace, monospace" font-size="11">
+    <text x="56" y="490" letter-spacing="2.2" font-size="10.5" fill="#6a6a73">TIMELINE</text>
+    <path d="M56 504h1088" stroke="#232329"/>
+    <g fill="#4e4e57" font-size="10">
+      <text x="56" y="528">2021</text><text x="56" y="544" fill="#3f3f47">trust earned</text>
+      <text x="360" y="528">2024-02-24</text><text x="360" y="544" fill="#3f3f47">5.6.0 released</text>
+      <text x="664" y="528">2024-03-29</text><text x="664" y="544" fill="#3f3f47">disclosed</text>
+      <text x="968" y="528">2024-04</text><text x="968" y="544" fill="#3f3f47">reverted</text>
+    </g>
+    <g fill="#ef4444">
+      <circle cx="56" cy="504" r="2.6"/><circle cx="360" cy="504" r="2.6"/><circle cx="664" cy="504" r="2.6"/><circle cx="968" cy="504" r="2.6"/>
+    </g>
+  </g>
+
+  <text x="56" y="616" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2.2" fill="#4a4a52">FIG. 08 — WHO CAN CHANGE THE BUILD</text>
+  <text x="1144" y="616" text-anchor="end" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2.2" fill="#4a4a52">RESEARCH / ANALYSIS</text>
+</svg>

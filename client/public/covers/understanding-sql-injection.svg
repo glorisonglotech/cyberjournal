@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="SQL result table with an injected predicate">
+  <rect width="1200" height="675" fill="#08080a"/>
+  <g stroke="#1b1b20"><path d="M0 92h1200M0 592h1200M96 0v675"/></g>
+
+  <text x="56" y="56" font-family="ui-monospace, monospace" font-size="13" letter-spacing="3.4" fill="#5a5a63">GLORISON CYBER JOURNAL</text>
+  <text x="1144" y="56" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" letter-spacing="2.4" fill="#8a4a4c">WEB SECURITY</text>
+
+  <g font-family="ui-monospace, monospace" font-size="12">
+    <text x="56" y="150" font-size="10.5" letter-spacing="2.4" fill="#6a6a73">QUERY</text>
+    <rect x="56" y="166" width="608" height="86" fill="#0b0b0e" stroke="#232329"/>
+    <text x="78" y="196" fill="#ff6568">SELECT</text><text x="140" y="196" fill="#8b8b93">id, username</text>
+    <text x="78" y="220" fill="#ff6568">FROM</text><text x="126" y="220" fill="#8b8b93">users</text>
+    <text x="78" y="244" fill="#6a6a73">WHERE username = ''</text>
+    <text x="238" y="244" fill="#ff6568">OR 1=1</text>
+    <text x="306" y="244" fill="#5f5f68">-- ' AND password…</text>
+  </g>
+
+  <g font-family="ui-monospace, monospace">
+    <rect x="56" y="292" width="760" height="238" fill="#0b0b0e" stroke="#2b2b32"/>
+    <rect x="56" y="292" width="760" height="34" fill="#101014" stroke="#2b2b32"/>
+    <text x="76" y="314" font-size="9.5" letter-spacing="2" fill="#6a6a73">ID</text>
+    <text x="146" y="314" font-size="9.5" letter-spacing="2" fill="#6a6a73">USERNAME</text>
+    <text x="376" y="314" font-size="9.5" letter-spacing="2" fill="#6a6a73">ROLE</text>
+    <text x="556" y="314" font-size="9.5" letter-spacing="2" fill="#6a6a73">PASSWORD_HASH</text>
+
+    <g font-size="11.5" fill="#8b8b93">
+      <text x="76" y="358">01</text><text x="146" y="358">glorison</text><text x="376" y="358">analyst</text><text x="556" y="358">$2b$12$••••••••</text>
+      <text x="76" y="394">02</text><text x="146" y="394">ocyber</text><text x="376" y="394">editor</text><text x="556" y="394">$2b$12$••••••••</text>
+      <text x="76" y="430">03</text><text x="146" y="430">root</text><text x="376" y="430">admin</text><text x="556" y="430">$2b$12$••••••••</text>
+      <text x="76" y="466">04</text><text x="146" y="466">nobody</text><text x="376" y="466">guest</text><text x="556" y="466">$2b$12$••••••••</text>
+    </g>
+    <g stroke="#1f1f24"><path d="M56 370h760M56 406h760M56 442h760M56 478h760"/></g>
+
+    <rect x="58" y="444" width="756" height="34" fill="#ef4444" fill-opacity="0.08"/>
+    <path d="M56 444h760M56 478h760" stroke="#ef4444" stroke-opacity="0.5"/>
+    <text x="76" y="466" font-size="11.5" fill="#ff6568">04</text>
+    <text x="146" y="466" font-size="11.5" fill="#ff6568">' OR 1=1 --</text>
+    <text x="376" y="466" font-size="11.5" fill="#ff6568">bypassed</text>
+    <text x="556" y="466" font-size="11.5" fill="#ff6568">all rows returned</text>
+  </g>
+
+  <g font-family="ui-monospace, monospace" font-size="11.5">
+    <text x="872" y="150" font-size="10.5" letter-spacing="2.4" fill="#6a6a73">BOUNDARY</text>
+    <path d="M872 166v364" stroke="#232329"/>
+    <text x="892" y="200" fill="#6a6a73">data</text>
+    <text x="892" y="222" fill="#5f5f68">↓</text>
+    <text x="892" y="250" fill="#ff6568">syntax</text>
+
+    <text x="872" y="470" font-size="10.5" letter-spacing="2.4" fill="#6a6a73">FIX</text>
+    <text x="872" y="496" fill="#8b8b93">WHERE id = ?</text>
+    <text x="872" y="518" fill="#4e4e57">value bound,</text>
+    <text x="872" y="538" fill="#4e4e57">never parsed</text>
+  </g>
+
+  <text x="56" y="644" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2.2" fill="#4a4a52">FIG. 05 — INJECTION AS A STRUCTURAL FAILURE</text>
+  <text x="1144" y="644" text-anchor="end" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2.2" fill="#4a4a52">DIFFICULTY / BEGINNER</text>
+</svg>
